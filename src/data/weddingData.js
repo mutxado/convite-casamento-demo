@@ -2,7 +2,7 @@ const base = import.meta.env.BASE_URL || '/';
 
 export const weddingData = {
   googleSheetsUrl: "",
-  adminPassword: "demo2026",
+  adminPassword: "carlos2027",
   storagePrefix: "carlos_nadia_demo",
 
   couple: {
@@ -24,7 +24,7 @@ export const weddingData = {
     },
     heroBg: `${base}images/hero_couple.jpg`,
     hashtag: "#CarlosENadia2027",
-    tagline: "CASAMENTO EM MAPUTO, MOÇAMBIQUE · DEMO",
+    tagline: "CASAMENTO EM MAPUTO, MOÇAMBIQUE",
     dateText: "Sábado, 15 de Maio de 2027",
     rsvpDeadline: "15 de Abril de 2027",
     targetDate: "2027-05-15T09:00:00",
@@ -110,11 +110,11 @@ export const weddingData = {
   ],
 
   gifts: {
-    intro: "A vossa presença neste dia é o maior presente para nós. Caso desejem abençoar a nossa nova etapa (exemplo ilustrativo de demonstração):",
+    intro: "A vossa presença no nosso casamento é o maior presente que poderíamos desejar. Para quem desejar nos abençoar nesta nova etapa, disponibilizamos as opções de contribuição abaixo:",
     paymentInfo: {
-      mpesa: "M-Pesa: 84 000 0000 (Carlos Tembe - Demo)",
-      emola: "e-Mola: 86 000 0000 (Nádia Mondlane - Demo)",
-      bankAccount: "Millennium BIM: NIB 0001 0000 0000 0000 0000 0 (Demo)"
+      mpesa: "M-Pesa: 84 000 0000 (Carlos Tembe)",
+      emola: "e-Mola: 86 000 0000 (Nádia Mondlane)",
+      bankAccount: "Millennium BIM: NIB 0001 0000 0000 0000 0000 0"
     }
   },
 

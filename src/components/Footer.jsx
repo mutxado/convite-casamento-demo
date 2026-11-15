@@ -49,7 +49,7 @@ export function Footer({ onOpenAdmin }) {
         </div>
 
         <div className="text-xs text-gray-400 border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span>&copy; 2027 {weddingData.couple.groom.name} & {weddingData.couple.bride.name} (Demo). Todos os direitos reservados.</span>
+          <span>&copy; 2027 {weddingData.couple.groom.name} & {weddingData.couple.bride.name}. Todos os direitos reservados.</span>
           <span className="flex items-center gap-1">
             Criado com <Heart className="w-3.5 h-3.5 text-[#D4AF37] fill-[#D4AF37]" /> para o nosso grande dia
           </span>

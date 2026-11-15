@@ -186,7 +186,7 @@ export function AdminDashboard({ onBack }) {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `Confirmacoes_Casamento_Carlos_e_Nadia_Demo_${new Date().toISOString().slice(0,10)}.csv`);
+    link.setAttribute('download', `Confirmacoes_Casamento_Carlos_e_Nadia_${new Date().toISOString().slice(0,10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -434,7 +434,7 @@ export function AdminDashboard({ onBack }) {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `Mapa_de_Mesas_Casamento_Carlos_e_Nadia_Demo_${new Date().toISOString().slice(0,10)}.csv`);
+    link.setAttribute('download', `Mapa_de_Mesas_Casamento_Carlos_e_Nadia_${new Date().toISOString().slice(0,10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -482,7 +482,7 @@ export function AdminDashboard({ onBack }) {
             Área de gestão reservada aos noivos (Carlos & Nádia).
           </p>
           <div className="inline-block px-3 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-[11px] font-medium mb-6">
-            Modo Demonstração · Palavra-passe: <span className="font-bold">demo2026</span>
+            Palavra-passe de acesso: <span className="font-bold">carlos2027</span>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-4">
@@ -548,15 +548,15 @@ export function AdminDashboard({ onBack }) {
 
             <button
               onClick={() => {
-                if (window.confirm('Restaurar todas as 12 mesas e convidados de demonstração originais?')) {
+                if (window.confirm('Restaurar todas as 12 mesas e convidados iniciais?')) {
                   resetDemoData();
                   loadData();
                 }
               }}
               className="px-3.5 py-2.5 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 text-xs font-semibold transition-colors cursor-pointer"
-              title="Repor dados de demonstração"
+              title="Repor dados iniciais"
             >
-              Restaurar Demo
+              Restaurar Dados
             </button>
 
             {activeTab === 'rsvp' ? (
